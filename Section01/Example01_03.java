@@ -6,7 +6,7 @@ public class Example01_03 {
 		// TODO Auto-generated method stub
 		Scanner sc = new Scanner(System.in);
 		String name;
-		System.out.print("�аݤj�W�O�H");
+		System.out.print("請問大名是？");
 		name = sc.nextLine();
 		System.out.println("Hello, " + name + " !");
 	}

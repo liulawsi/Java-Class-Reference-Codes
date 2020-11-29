@@ -3,17 +3,17 @@ public class Example01_02 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		System.out.println("\t§É«e©ú¤ë¥ú  ºÃ¦ü¦a¤WÁ÷");
-		System.out.println("\tÁ|ÀY±æ©ú¤ë  §CÀY«ä«K·í");
-		System.out.println("\t\t\t§õ¶Â ÀR©]«ä");
+		System.out.println("\tåºŠå‰æ˜æœˆå…‰  ç–‘ä¼¼åœ°ä¸Šéœœ");
+		System.out.println("\tèˆ‰é ­æœ›æ˜æœˆ  ä½é ­æ€ä¾¿ç•¶");
+		System.out.println("\t\t\tæé»‘ éœå¤œæ€");
 		System.out.println("");
-		System.out.println("  §C  Á|  ºÃ  §É");
-		System.out.println("  ÀY  ÀY  ¦ü  «e  §õ");
-		System.out.println("  «ä  ±æ  ¦a  ©ú  ¶Â");
-		System.out.println("  «K  ©ú  ¤W  ¤ë");
-		System.out.println("  ·í  ¤ë  Á÷  ¥ú  ÀR");
-		System.out.println("                 ©]");
-		System.out.println("                 «ä");
+		System.out.println("  ä½  èˆ‰  ç–‘  åºŠ");
+		System.out.println("  é ­  é ­  ä¼¼  å‰  æ");
+		System.out.println("  æ€  æœ›  åœ°  æ˜  é»‘");
+		System.out.println("  ä¾¿  æ˜  ä¸Š  æœˆ");
+		System.out.println("  ç•¶  æœˆ  éœœ  å…‰  éœ");
+		System.out.println("                 å¤œ");
+		System.out.println("                 æ€");
 	}
 
 }
