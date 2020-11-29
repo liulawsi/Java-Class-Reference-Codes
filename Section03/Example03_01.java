@@ -8,14 +8,14 @@ public class Example03_01 {
 		int width, height;
 		int area;
 		
-		System.out.print("½Ğ¿é¤Jªø=");
+		System.out.print("è«‹è¼¸å…¥é•·=");
 		height = sc.nextInt();
-		System.out.print("½Ğ¿é¤J¼e=");
+		System.out.print("è«‹è¼¸å…¥å¯¬=");
 		width = sc.nextInt();
 		
 		area = height * width;
 		
-		System.out.println("¯x§Î­±¿n=" + area);
+		System.out.println("çŸ©å½¢é¢ç©=" + area);
 	}
 
 }
