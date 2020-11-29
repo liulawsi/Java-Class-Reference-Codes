@@ -7,14 +7,14 @@ public class Example04_01 {
 		Scanner sc = new Scanner(System.in);
 		int score;
 		
-		System.out.print("½Ğ¿é¦¨ÁZ=");
+		System.out.print("è«‹è¼¸æˆç¸¾=");
 		score = sc.nextInt();
 		
 		if (score >=60) {
-			System.out.println("¤Î®æ¡I");
+			System.out.println("åŠæ ¼ï¼");
 		}
 		else {
-			System.out.println("¤£¤Î®æ¡I");
+			System.out.println("ä¸åŠæ ¼ï¼");
 		}
 	}
 

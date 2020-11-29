@@ -8,16 +8,16 @@ public class Example03_02 {
 		int score1, score2, score3;
 		int total;
 		
-		System.out.print("�Ĥ@�즨�Z=");
+		System.out.print("第一科成績=");
 		score1 = sc.nextInt();
-		System.out.print("�ĤG�즨�Z=");
+		System.out.print("第二科成績=");
 		score2 = sc.nextInt();
-		System.out.print("�ĤT�즨�Z=");
+		System.out.print("第三科成績=");
 		score3 = sc.nextInt();
 		
 		total = score1 + score2 + score3;
 		
-		System.out.println("�T�즨�Z�`�M=" + total);
+		System.out.println("三科成績總和=" + total);
 	}
 
 }

@@ -8,19 +8,19 @@ public class Example04_06 {
 		int score;
 		
 		while(true) {
-			System.out.print("½Ð¿é¦¨ÁZ=");
+			System.out.print("è«‹è¼¸æˆç¸¾=");
 			score = sc.nextInt();
 		
 			if (score >=90) {
-				System.out.println(score +"¤À¬OA¯Å");
+				System.out.println(score +"åˆ†æ˜¯Aç´š");
 			}else if (score >= 80) {
-				System.out.println(score +"¤À¬OB¯Å");
+				System.out.println(score +"åˆ†æ˜¯Bç´š");
 			}else if (score >= 70) {
-				System.out.println(score +"¤À¬OC¯Å");
+				System.out.println(score +"åˆ†æ˜¯Cç´š");
 			}else if (score >= 60) {
-				System.out.println(score +"¤À¬OD¯Å");
+				System.out.println(score +"åˆ†æ˜¯Dç´š");
 			}else {
-				System.out.println(score +"¤À¬OE¯Å");
+				System.out.println(score +"åˆ†æ˜¯Eç´š");
 			}
 			System.out.println("-----------------");
 		}
