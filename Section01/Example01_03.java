@@ -1,8 +1,6 @@
-package example03;
-
 import java.util.Scanner;
 
-public class example03 {
+public class Example01_03 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

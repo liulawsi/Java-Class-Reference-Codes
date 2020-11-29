@@ -1,5 +1,5 @@
 
-public class example02 {
+public class Example01_02 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -15,4 +15,5 @@ public class example02 {
 		System.out.println("                 ©]");
 		System.out.println("                 «ä");
 	}
+
 }
