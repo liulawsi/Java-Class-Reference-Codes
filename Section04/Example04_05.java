@@ -7,18 +7,18 @@ public class Example04_05 {
 		Scanner sc = new Scanner(System.in);
 		int month;
 		
-		System.out.print("½Ð¿é¤J¤ë¥÷=");
+		System.out.print("è«‹è¼¸å…¥æœˆä»½=");
 		month = sc.nextInt();
 		
 		if (month <= 3) {
-			System.out.println("¬K©u");
+			System.out.println("æ˜¥å­£");
 		}else if (month <= 6) {
-			System.out.println("®L©u");
+			System.out.println("å¤å­£");
 		}else if (month <= 9) {
-			System.out.println("¬î©u");
+			System.out.println("ç§‹å­£");
 		}
 		else if (month <= 12) {
-			System.out.println("¥V©u");
+			System.out.println("å†¬å­£");
 		}
 	}
 
