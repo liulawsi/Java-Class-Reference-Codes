@@ -14,14 +14,16 @@ public class Example06_06 {
 		}
 		System.out.println("=====================");
 		while(true) {
-			System.out.println("請輸入查詢數字=");
+			System.out.print("請輸入查詢數字=");
 			target = sc.nextInt();
 			found = false;
 			for(int i = 0; i < 10; i++) {
 				if (numbers[i] == target) found = true;
 			}
-			if (found) System.out.println(target+"有！");
-			else System.out.println(target+"沒有！");
+			if (found) 
+				System.out.println(target + "有");
+			else
+				System.out.println(target + "沒有");
 		}
 	}
 
