@@ -1,3 +1,4 @@
+package section03;
 import java.util.Scanner;
 
 public class Example03_01 {
@@ -5,17 +6,19 @@ public class Example03_01 {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Scanner sc = new Scanner(System.in);
-		int width, height;
-		int area;
+		int score;
 		
-		System.out.print("請輸入長=");
-		height = sc.nextInt();
-		System.out.print("請輸入寬=");
-		width = sc.nextInt();
+		System.out.print("請輸成績=");
+		score = sc.nextInt();
 		
-		area = height * width;
+		if (score >=60) {
+			System.out.println("及格！");
+		}
+		else {
+			System.out.println("不及格！");
+		}
 		
-		System.out.println("矩形面積=" + area);
+		
 	}
 
 }

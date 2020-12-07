@@ -1,3 +1,4 @@
+package section06;
 import java.util.Scanner;
 
 public class Example06_01 {

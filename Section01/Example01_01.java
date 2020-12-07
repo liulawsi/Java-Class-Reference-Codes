@@ -1,4 +1,4 @@
-package example01_01;
+package section01;
 
 public class Example01_01 {
 

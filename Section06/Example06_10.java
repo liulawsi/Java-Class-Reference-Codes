@@ -1,3 +1,4 @@
+package section06;
 
 public class Example06_10 {
 
