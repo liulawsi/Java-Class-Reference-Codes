@@ -8,21 +8,21 @@ public class Example10_01 {
 		myCard = new IC_Card();
 		
 		myCard.account = "168800001";
-		myCard.name = "劉大帥";
+		myCard.name = "�B�j��";
 		myCard.money = 1000000;
 		
 		System.out.println(myCard.account + "::" 
-						+myCard.name + "的帳戶餘額是" 
+						+myCard.name + "��NT$" 
 						+ myCard.money);
 		
 		myCard.deposit(500);
 		System.out.println(myCard.account + "::" 
-				+myCard.name + "的帳戶餘額是" 
+				+myCard.name + "��NT$" 
 				+ myCard.money);
 		
 		myCard.Withdraw(5000);
 		System.out.println(myCard.account + "::" 
-				+myCard.name + "的帳戶餘額是" 
+				+myCard.name + "��NT$" 
 				+ myCard.money);
 	}
 }

@@ -10,21 +10,21 @@ public class Example06_06 {
 		int target = 0;
 		boolean found = false;
 		for(int i = 0; i < 10; i++) {
-			System.out.print("è«‹è¼¸å…¥æ•¸å­—"+(i+1)+"=");
+			System.out.print("½Ð¿é¤J¼Æ¦r"+(i+1)+"=");
 			numbers[i] = sc.nextInt();
 		}
 		System.out.println("=====================");
 		while(true) {
-			System.out.print("è«‹è¼¸å…¥æŸ¥è©¢æ•¸å­—=");
+			System.out.print("½Ð¿é¤J¬d¸ß¼Æ¦r=");
 			target = sc.nextInt();
 			found = false;
 			for(int i = 0; i < 10; i++) {
 				if (numbers[i] == target) found = true;
 			}
 			if (found) 
-				System.out.println(target + "æœ‰");
+				System.out.println(target + "¦³");
 			else
-				System.out.println(target + "æ²’æœ‰");
+				System.out.println(target + "¨S¦³");
 		}
 	}
 

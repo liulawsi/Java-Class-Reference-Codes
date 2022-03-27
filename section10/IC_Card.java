@@ -1,4 +1,4 @@
-package section10;
+
 
 public class IC_Card {
 	String account;
@@ -15,6 +15,10 @@ public class IC_Card {
 	
 	public int Balance() {
 		return money;
+	}
+	
+	public void SHowBalance() {
+		System.out.println(account + " " + name + " NT$" + money);
 	}
 }
 
